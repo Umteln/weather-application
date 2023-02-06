@@ -3,8 +3,8 @@ import Image from 'next/image';
 import axios from 'axios';
 import { useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
-import Weather from '@/components/weather';
 import Spinner from '@/components/Spinner';
+import Weather from '@/components/Weather';
 
 export default function Home() {
 	const [city, setCity] = useState('');
